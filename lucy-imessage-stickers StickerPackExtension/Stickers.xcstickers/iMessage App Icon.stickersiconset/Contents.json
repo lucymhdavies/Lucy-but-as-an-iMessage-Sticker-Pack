@@ -3,7 +3,7 @@
     {
       "size" : "29x29",
       "idiom" : "iphone",
-      "filename" : "App Icon 29x29@2x-1.png",
+      "filename" : "App Icon 29x29@2x-1 copy-1.png",
       "scale" : "2x"
     },
     {
@@ -27,25 +27,25 @@
     {
       "size" : "29x29",
       "idiom" : "ipad",
-      "filename" : "App Icon 29x29@2x.png",
+      "filename" : "App Icon 29x29@2x-1.png",
       "scale" : "2x"
     },
     {
       "size" : "67x50",
       "idiom" : "ipad",
-      "filename" : "App Icon 67x50@2x.png",
+      "filename" : "icon-messages-app-iPadAir-67x50@2x.png",
       "scale" : "2x"
     },
     {
       "size" : "74x55",
       "idiom" : "ipad",
-      "filename" : "App Icon 74x55@2x.png",
+      "filename" : "icon-messages-app-iPadAir-74x55@2x.png",
       "scale" : "2x"
     },
     {
       "size" : "1024x1024",
       "idiom" : "ios-marketing",
-      "filename" : "App Icon 1024x768-1.png",
+      "filename" : "1024.png",
       "scale" : "1x"
     },
     {
@@ -79,7 +79,7 @@
     {
       "size" : "1024x768",
       "idiom" : "ios-marketing",
-      "filename" : "App Icon 1024x768.png",
+      "filename" : "icon-messages-app-store-1024x768.png",
       "scale" : "1x",
       "platform" : "ios"
     }
