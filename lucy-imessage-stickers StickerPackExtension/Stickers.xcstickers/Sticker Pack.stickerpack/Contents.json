@@ -1,0 +1,26 @@
+{
+  "stickers" : [
+    {
+      "filename" : "deal_with_it_lucy.sticker"
+    },
+    {
+      "filename" : "dealing_with_it_lucy.sticker"
+    },
+    {
+      "filename" : "festive_lucy.sticker"
+    },
+    {
+      "filename" : "lucy_spin.sticker"
+    },
+    {
+      "filename" : "lucy.sticker"
+    }
+  ],
+  "info" : {
+    "version" : 1,
+    "author" : "xcode"
+  },
+  "properties" : {
+    "grid-size" : "regular"
+  }
+}

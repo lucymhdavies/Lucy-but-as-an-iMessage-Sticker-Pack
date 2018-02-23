@@ -1,0 +1,354 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		8DB5998E2040B2F0003E41EE /* lucy-imessage-stickers StickerPackExtension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 8DB5998D2040B2F0003E41EE /* lucy-imessage-stickers StickerPackExtension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		8DB599922040B2F0003E41EE /* Stickers.xcstickers in Resources */ = {isa = PBXBuildFile; fileRef = 8DB599912040B2F0003E41EE /* Stickers.xcstickers */; };
+		8DB599932040B2F0003E41EE /* Stickers.xcstickers in Resources */ = {isa = PBXBuildFile; fileRef = 8DB599912040B2F0003E41EE /* Stickers.xcstickers */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		8DB5998F2040B2F0003E41EE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8DB599832040B2EF003E41EE /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8DB5998C2040B2F0003E41EE;
+			remoteInfo = "lucy-imessage-stickers StickerPackExtension";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		8DB599992040B2F0003E41EE /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				8DB5998E2040B2F0003E41EE /* lucy-imessage-stickers StickerPackExtension.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		8DB599892040B2EF003E41EE /* lucy-imessage-stickers.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "lucy-imessage-stickers.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		8DB5998D2040B2F0003E41EE /* lucy-imessage-stickers StickerPackExtension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "lucy-imessage-stickers StickerPackExtension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
+		8DB599912040B2F0003E41EE /* Stickers.xcstickers */ = {isa = PBXFileReference; lastKnownFileType = folder.stickers; name = Stickers.xcstickers; path = "lucy-imessage-stickers StickerPackExtension/Stickers.xcstickers"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXGroup section */
+		8DB599822040B2EF003E41EE = {
+			isa = PBXGroup;
+			children = (
+				8DB599912040B2F0003E41EE /* Stickers.xcstickers */,
+				8DB5998A2040B2EF003E41EE /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		8DB5998A2040B2EF003E41EE /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8DB599892040B2EF003E41EE /* lucy-imessage-stickers.app */,
+				8DB5998D2040B2F0003E41EE /* lucy-imessage-stickers StickerPackExtension.appex */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8DB599882040B2EF003E41EE /* lucy-imessage-stickers */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8DB5999A2040B2F0003E41EE /* Build configuration list for PBXNativeTarget "lucy-imessage-stickers" */;
+			buildPhases = (
+				8DB599872040B2EF003E41EE /* Resources */,
+				8DB599992040B2F0003E41EE /* Embed App Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8DB599902040B2F0003E41EE /* PBXTargetDependency */,
+			);
+			name = "lucy-imessage-stickers";
+			productName = "lucy-imessage-stickers";
+			productReference = 8DB599892040B2EF003E41EE /* lucy-imessage-stickers.app */;
+			productType = "com.apple.product-type.application.messages";
+		};
+		8DB5998C2040B2F0003E41EE /* lucy-imessage-stickers StickerPackExtension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8DB599962040B2F0003E41EE /* Build configuration list for PBXNativeTarget "lucy-imessage-stickers StickerPackExtension" */;
+			buildPhases = (
+				8DB5998B2040B2F0003E41EE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "lucy-imessage-stickers StickerPackExtension";
+			productName = "lucy-imessage-stickers StickerPackExtension";
+			productReference = 8DB5998D2040B2F0003E41EE /* lucy-imessage-stickers StickerPackExtension.appex */;
+			productType = "com.apple.product-type.app-extension.messages-sticker-pack";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		8DB599832040B2EF003E41EE /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0910;
+				ORGANIZATIONNAME = LMHD;
+				TargetAttributes = {
+					8DB599882040B2EF003E41EE = {
+						CreatedOnToolsVersion = 9.1;
+						ProvisioningStyle = Automatic;
+					};
+					8DB5998C2040B2F0003E41EE = {
+						CreatedOnToolsVersion = 9.1;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 8DB599862040B2EF003E41EE /* Build configuration list for PBXProject "lucy-imessage-stickers" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 8DB599822040B2EF003E41EE;
+			productRefGroup = 8DB5998A2040B2EF003E41EE /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8DB599882040B2EF003E41EE /* lucy-imessage-stickers */,
+				8DB5998C2040B2F0003E41EE /* lucy-imessage-stickers StickerPackExtension */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8DB599872040B2EF003E41EE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8DB599932040B2F0003E41EE /* Stickers.xcstickers in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8DB5998B2040B2F0003E41EE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8DB599922040B2F0003E41EE /* Stickers.xcstickers in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		8DB599902040B2F0003E41EE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8DB5998C2040B2F0003E41EE /* lucy-imessage-stickers StickerPackExtension */;
+			targetProxy = 8DB5998F2040B2F0003E41EE /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		8DB599942040B2F0003E41EE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		8DB599952040B2F0003E41EE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		8DB599972040B2F0003E41EE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = "iMessage App Icon";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 4ZH854BW68;
+				INFOPLIST_FILE = "lucy-imessage-stickers StickerPackExtension/Info.plist";
+				PRODUCT_BUNDLE_IDENTIFIER = "me.lmhd.lucy-imessage-stickers.StickerPackExtension";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		8DB599982040B2F0003E41EE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = "iMessage App Icon";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 4ZH854BW68;
+				INFOPLIST_FILE = "lucy-imessage-stickers StickerPackExtension/Info.plist";
+				PRODUCT_BUNDLE_IDENTIFIER = "me.lmhd.lucy-imessage-stickers.StickerPackExtension";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		8DB5999B2040B2F0003E41EE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = "iMessage App Icon";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 4ZH854BW68;
+				INFOPLIST_FILE = "lucy-imessage-stickers/Info.plist";
+				PRODUCT_BUNDLE_IDENTIFIER = "me.lmhd.lucy-imessage-stickers";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		8DB5999C2040B2F0003E41EE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = "iMessage App Icon";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 4ZH854BW68;
+				INFOPLIST_FILE = "lucy-imessage-stickers/Info.plist";
+				PRODUCT_BUNDLE_IDENTIFIER = "me.lmhd.lucy-imessage-stickers";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		8DB599862040B2EF003E41EE /* Build configuration list for PBXProject "lucy-imessage-stickers" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8DB599942040B2F0003E41EE /* Debug */,
+				8DB599952040B2F0003E41EE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8DB599962040B2F0003E41EE /* Build configuration list for PBXNativeTarget "lucy-imessage-stickers StickerPackExtension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8DB599972040B2F0003E41EE /* Debug */,
+				8DB599982040B2F0003E41EE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8DB5999A2040B2F0003E41EE /* Build configuration list for PBXNativeTarget "lucy-imessage-stickers" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8DB5999B2040B2F0003E41EE /* Debug */,
+				8DB5999C2040B2F0003E41EE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 8DB599832040B2EF003E41EE /* Project object */;
+}
